@@ -6,7 +6,7 @@ package DbBest_Tasks;
 
 import java.util.Scanner;
 
-public class Array2 {
+public class Task1_Array_A {
 
     public static void main(String[] args) {
         System.out.println("Ниже представлен двумерный массив строковых данных:");
@@ -14,14 +14,14 @@ public class Array2 {
         String[][] array = {{"дом", "дверь", "окно"}, {"комната", "кухня", "спальня"}};
         for (int row = 0; row < 2; row++) {
             for (int column = 0; column < 3; column++) {
-                System.out.print(array[row][column] + "\t");
+                System.out.print(array[row][column] + "  ");
             }
-            System.out.println();
+            System.out.println("");
         }
 
         Scanner in = new Scanner(System.in);
         System.out.println();
-        System.out.println("Введите первое произвольное число от 1 до 6:");
+        System.out.println("Введите первое произвольное число от 1 до 6");
         int num1;
 
         while (true) {
