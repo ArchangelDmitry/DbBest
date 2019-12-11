@@ -12,8 +12,8 @@ public class Task1_Array_B {
         System.out.println("Ниже представлен двумерный массив строковых данных:");
         System.out.println();
         String[][] array = {{"дом", "дверь", "окно"}, {"комната", "кухня", "спальня"}};
-        for (int row = 0; row < 2; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < array.length; row++) {
+            for (int column = 0; column < array[row].length; column++) {
                 System.out.print(array[row][column] + "  ");
             }
             System.out.println("");
